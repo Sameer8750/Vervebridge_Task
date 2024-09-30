@@ -1,6 +1,8 @@
 # Predictive Maintenance for Industrial Equipment Using IoT Data.
 
 
+![Picture1555](https://github.com/user-attachments/assets/5f732aa4-995b-47e9-8c6a-760fd6f8d3bc)
+
 
 ## 📊 Dataset Overview:
 
