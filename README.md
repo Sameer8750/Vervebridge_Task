@@ -23,6 +23,61 @@ The Predictive Maintenance project focuses on using IoT data to monitor industri
 - Pressure_Mean: Average pressure recorded up to the current timestamp.
 - RPM_Mean: Average RPM recorded up to the current timestamp.
 
+## 🧪 Exploratory Data Analysis (EDA):
+
+EDA was conducted to uncover patterns and insights within the dataset:
+
+- Temperature and Vibration Trends: Analyzed changes in temperature and vibration over time.
+- Maintenance Needs: Examined how temperature, vibration, and pressure influence the need for maintenance.
+- Pressure Analysis: Investigated how pressure fluctuations affect equipment performance.
+- RPM Behavior: Explored the RPM data and its role in equipment failure.
+
+## 🚀 Machine Learning for Predictive Maintenance:
+
+In addition to EDA, we applied advanced machine learning techniques to predict equipment failures and analyze anomalies using:
+
+- Scikit-learn: Used for feature selection and building simple predictive models like Logistic Regression and Random Forest.
+- XGBoost: Applied to capture complex patterns in equipment failures and achieve high accuracy in failure prediction.
+- LSTM (Long Short-Term Memory): Employed for time-series forecasting, detecting anomalies, and predicting future maintenance requirements by learning from historical data patterns.
+- ARIMA (AutoRegressive Integrated Moving Average): Used for time-series modeling to predict trends in temperature, vibration, and pressure over time, helping us forecast equipment behavior.
+
+## 🧰 Tools Used :
+
+- Python: For data manipulation and analysis.
+- Pandas, NumPy: For data cleaning, processing, and numerical operations.
+- Matplotlib, Seaborn: To generate insightful visualizations.
+- Scikit-learn: For implementing machine learning models.
+- XGBoost: For boosting model performance.
+- LSTM, ARIMA: For time-series analysis and forecasting.
+
+## 💡 Insights:
+
+- Temperature Fluctuations: Significant temperature spikes correlate with increased maintenance needs.
+- Vibration Analysis: Sudden changes in vibration are key indicators of potential equipment failures.
+- Machine Learning Models: XGBoost and LSTM provided the most accurate predictions for maintenance requirements, helping optimize predictive strategies.
+
+## 🛠️ Setup and Usage
+<br>
+
+**1. Clone the repository :**
+```bash
+  https://github.com/Sameer8750/Vervebridge_Task
+```
+
+**Install Dependencies:**
+
+To run the analysis, install necessary packages:
+```bash
+    pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow statsmodels
+
+```
+**Running the Analysis:**
+
+- Open the Jupyter notebook Predictive_Maintenance_analysis.ipynb.
+- Run each cell step-by-step to clean the data, conduct EDA, and implement machine learning models.
+
+
+
 ## 📬 Contact Information
 
 For inquiries or further discussion on this project, feel free to reach out:
